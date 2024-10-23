@@ -1,8 +1,11 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 import { Container } from "./container";
-import { Categories } from "./categories";
-import { SortPopup } from "./SortPopup";
+import { SortPopup } from "./sort-popup";
+import { Categories } from "./Categories";
+
+
+
 
 interface Props {
   className?: string;

@@ -1,5 +1,7 @@
 import { Container, SortPopup, TopBar } from "@/components/shared";
-import { Title } from "@/components/shared/title";
+import { Filters } from "@/components/shared/filters";
+import { Title } from "@/components/shared/Title";
+
 
 export default function Home() {
   return (
@@ -9,7 +11,19 @@ export default function Home() {
       </Container>
 
       <TopBar />
-      <div style={{ height: "3000px" }} />
+
+      <Container className="mt-10 pb-14">
+        <div className="flex gap-[60px]">
+          <div className="w-[250px]">
+            <Filters />
+          </div>
+
+
+          <div className="flex-1 ">
+            <div className="flex flex-col gap-16 ">Список товаров</div>
+          </div>
+        </div>
+      </Container>
     </>
   );
 }
