@@ -1,6 +1,6 @@
 import { Container, SortPopup, TopBar } from "@/components/shared";
 import { Filters } from "@/components/shared/filters";
-import { Title } from "@/components/shared/Title";
+import { Title } from "@/components/shared/title";
 
 
 export default function Home() {

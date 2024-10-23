@@ -2,7 +2,8 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import { Container } from "./container";
 import { SortPopup } from "./sort-popup";
-import { Categories } from "./Categories";
+import { Categories } from "./categories";
+
 
 
 

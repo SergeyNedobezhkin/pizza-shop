@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import { Input } from "../ui";
 import { RangeSlider } from "../ui/range-slider";
 import { FilterCheckbox } from "./filter-checkbox";
-import { Title } from "./Title";
+import { Title } from "./title";
 import React from "react";
 import { CheckboxFiltersGroup } from "./checkbox-filters-group";
 
